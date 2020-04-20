@@ -185,7 +185,7 @@ public class MainActivity extends AppCompatActivity
             }
         }
         drawer.addDrawerListener(drawerListener);
-
+        System.out.println();
         bottomSheetBehavior = BottomSheetBehavior.from(findViewById(R.id.tab_layout));
     }
 
